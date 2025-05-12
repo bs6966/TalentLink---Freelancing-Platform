@@ -197,13 +197,17 @@ const Register = () => {
                   </div>
                 </div>
               </div>
-
+              <Link
+              to="/"
+              >
               <button
                 type="submit"
                 className="w-full flex justify-center py-3 px-4 rounded-xl text-black font-semibold bg-code-green hover:bg-code-green/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-code-green focus:ring-offset-gray-900 transition-all duration-200"
               >
                 Create Account
               </button>
+              </Link>
+              
             </form>
 
             <p className="text-center text-xs text-gray-400">

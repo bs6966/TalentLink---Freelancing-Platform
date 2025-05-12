@@ -79,7 +79,7 @@ const Navbar = () => {
                   <div className="absolute inset-0 bg-gray-900/90 backdrop-blur-xl rounded-xl border border-gray-800/50 shadow-xl"></div>
                   
                   <div className="relative py-2 px-3">
-                    <Link to="/resources/blog" className="block px-3 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800/50 rounded-lg transition-colors">
+                    <Link to="/documentation" className="block px-3 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800/50 rounded-lg transition-colors">
                       Blog
                     </Link>
                     <Link to="/resources/guides" className="block px-3 py-2 text-sm text-gray-300 hover:text-white hover:bg-gray-800/50 rounded-lg transition-colors">
